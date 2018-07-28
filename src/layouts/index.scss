@@ -52,7 +52,7 @@ nav {
 }
 //Header Section/Banner One ----------//
 header {
-  background-image: url("../images/beach-two.jpg");
+  background-image: url('../images/beach-two.jpg');
   height: 100vh;
   background-position: bottom;
   background-size: cover;
@@ -66,6 +66,16 @@ header {
     @media only screen and (min-width: 768px) {
       width: 43%;
     }
+  }
+  .arrow {
+    width: 3rem;
+    position: absolute;
+    bottom: 1rem;
+  }
+  .arrow-two {
+    width: 3rem;
+    position: absolute;
+    bottom: 1.5rem;
   }
 }
 h1 {
@@ -87,7 +97,7 @@ h1 {
 
 //Banner Two
 .banner-two {
-  background-image: url("../images/chill.jpg");
+  background-image: url('../images/chill.jpg');
   height: 100vh;
   img {
     width: 55%;
@@ -95,15 +105,72 @@ h1 {
       width: 23%;
     }
   }
+  p {
+    width: 100%;
+    //background-color: #ffffff;
+    padding: 1rem;
+    //border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    //margin-top: 5rem;
+    //position: absolute;
+    bottom: 5rem;
+    color: #ffffff;
+    @media only screen and (min-width: 768px) {
+      width: 55%;
+      font-size: 1.7rem;
+    }
+  }
+  a {
+    color: #ffffff;
+  }
+  button {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+  }
 }
 //Banner Three
 .banner-three {
-  background-image: url("../images/casual.jpg");
+  background-image: url('../images/casual.jpg');
   height: 100vh;
+  position: relative;
   img {
-    width: 70%;
+    width: 90%;
     @media only screen and (min-width: 768px) {
       width: 33%;
+    }
+  }
+  p {
+    //background-color: #ffffff;
+    position: absolute;
+    top: 6rem;
+    //font-weight: ;
+    font-size: 1.25rem;
+    @media only screen and (min-width: 768px) {
+      top: 5rem;
+    }
+  }
+  a {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    //border-radius: 8px;
+    position: absolute;
+    bottom: 6rem;
+    @media only screen and (min-width: 768px) {
+      bottom: 5rem;
     }
   }
 }
@@ -276,7 +343,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  //position: fixed;
   bottom: 0;
   width: 100%;
   height: 3.25rem;
