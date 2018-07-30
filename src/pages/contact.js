@@ -1,21 +1,22 @@
 import React from 'react'
-import {Header} from '../components/header'
-import {Footer} from '../components/footer'
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 const Contact = () => (
   <div>
     <Header />
     <section className="section contact">
-      <img src={require("../images/learn.jpg")} />
+      <img src={require('../images/learn.jpg')} />
       <h2>contact and bookings</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis qui, in cum animi deleniti maiores exercitationem modi
-        dolorum pariatur ducimus beatae sapiente temporibus et suscipit rerum mollitia est atque. Vel alias corrupti fugiat.
+        We'd love to talk to you about growing your team dynamic or having safe
+        conversation amongst your community. For booking or more information
+        please complete the form below and we will be in touch, usually within a
+        day. Thank you!
       </p>
     </section>
     <div className="form-wrapper">
       <form name="signup" method="post">
-
         <fieldset>
           <label for="name">full name</label>
           <input type="text" id="name" name="name" />
@@ -27,9 +28,11 @@ const Contact = () => (
           <input type="number" id="number" name="user_number" />
 
           <label>your messege</label>
-          <textarea id="comment" name="user_comment"></textarea>
+          <textarea id="comment" name="user_comment" />
         </fieldset>
-        <button href="#" id="submit" type="submit">send</button>
+        <button href="#" id="submit" type="submit">
+          send
+        </button>
       </form>
     </div>
     <Footer />
