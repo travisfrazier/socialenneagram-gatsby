@@ -19,6 +19,7 @@
 
 //Toggle menu
 .block {
+  height: 100vh;
   display: block !important;
 }
 nav {
@@ -29,7 +30,6 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 4rem;
-  height: 100vh;
   display: none;
   @media only screen and (min-width: 768px) {
     display: block;
@@ -299,14 +299,12 @@ form {
     margin-bottom: 1rem;
   }
   button {
-    width: 25%;
-    height: 3.25rem;
-    border: none;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    font-size: 1.25rem;
+    padding: 1rem;
     margin-top: 1rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
   }
 }
 
@@ -333,6 +331,14 @@ form {
   }
   .more-info {
     z-index: 1000;
+  }
+  button {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
   }
 }
 

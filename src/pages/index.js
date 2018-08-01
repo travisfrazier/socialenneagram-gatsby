@@ -19,10 +19,10 @@ const IndexPage = () => (
       </p>
     </section>
     <section id="yes" className="section banner-three">
-      <p>Where are you on the Enneagram?</p>
+      <p>where are you on the enneagram?</p>
       <img src={require('../images/enneagram.png')} />
       <Link to="enneagram">
-        <button>Learn More</button>
+        <button>learn more</button>
       </Link>
     </section>
     <Footer />

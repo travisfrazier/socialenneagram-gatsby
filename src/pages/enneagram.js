@@ -26,8 +26,11 @@ const Enneagram = () => (
         Enneagram provides language that allows us access to a conscious stream
         of challenging ourselves through admittance of our shortcomings. The
         Enneagram gives us enlightenment to the addiction of ourselves and a map
-        to find freedom.
+        to find freedom.{' '}
       </p>
+      <Link to="contact">
+        <button>let's chat</button>
+      </Link>
     </section>
     <Footer />
   </div>
