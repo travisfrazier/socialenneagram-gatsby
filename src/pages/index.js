@@ -15,12 +15,8 @@ const IndexPage = () => (
       <p>
         The Enneagram is a typing system that recognizes 9 perspectives of the
         world. A tool that opens doors for self-awareness and provides insight
-        on the views and behaviors of others. Curious on how you{' '}
-        <u>
-          <a href="#yes">view the World?</a>
-        </u>
+        on the views and behaviors of others. Curious on how you view the World?
       </p>
-      {/* <img src={require('../images/self-two.jpg')} /> */}
     </section>
     <section id="yes" className="section banner-three">
       <p>Where are you on the Enneagram?</p>

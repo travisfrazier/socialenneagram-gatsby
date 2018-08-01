@@ -151,11 +151,9 @@ h1 {
     }
   }
   p {
-    //background-color: #ffffff;
     position: absolute;
     top: 6rem;
-    //font-weight: ;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     @media only screen and (min-width: 768px) {
       top: 4rem;
     }
@@ -188,10 +186,8 @@ h1 {
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     padding: 1rem;
-    max-width: 960px;
     width: 70%;
     margin: 0 auto;
-    max-width: 960px;
   }
   img {
     padding-top: 6rem;
@@ -215,10 +211,8 @@ h1 {
   @media only screen and (min-width: 768px) {
     flex-direction: row;
     padding: 1rem;
-    max-width: 960px;
     width: 70%;
     margin: 0 auto;
-    max-width: 960px;
   }
   img {
     padding-top: 3rem;
@@ -240,7 +234,6 @@ h1 {
 //Contact page ----------//
 .contact {
   @media only screen and (min-width: 768px) {
-    max-width: 960px;
     margin: 0 auto;
   }
   h2 {
@@ -265,12 +258,10 @@ h1 {
   }
   p {
     width: 90%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     @media only screen and (min-width: 768px) {
       width: 60%;
-      //padding-right: 14rem;
-      //text-align: left;
-      display: inline;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -278,7 +269,6 @@ h1 {
   max-width: 90%;
   margin: auto;
   @media only screen and (min-width: 768px) {
-    max-width: 960px;
     width: 50%;
   }
 }
@@ -323,7 +313,6 @@ form {
 //Enneagram page ----------//
 .enneagram {
   @media only screen and (min-width: 768px) {
-    max-width: 960px;
     margin: 0 auto;
   }
   img {
@@ -341,6 +330,9 @@ form {
     @media only screen and (min-width: 768px) {
       width: 80%;
     }
+  }
+  .more-info {
+    z-index: 1000;
   }
 }
 

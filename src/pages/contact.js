@@ -5,17 +5,17 @@ import { Footer } from '../components/footer'
 const Contact = () => (
   <div>
     <Header />
-    <section className="section contact">
+    <section className="section contact wrapper">
       <img src={require('../images/learn.jpg')} />
       <h2>contact and bookings</h2>
       <p>
         We'd love to talk to you about growing your team dynamic or having safe
         conversation amongst your community. For booking or more information
         please complete the form below and we will be in touch, usually within a
-        day. Thank you!
+        day.
       </p>
     </section>
-    <div className="form-wrapper">
+    <div className="form-wrapper wrapper">
       <form name="signup" method="post">
         <fieldset>
           <label for="name">full name</label>

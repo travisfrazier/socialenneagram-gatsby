@@ -32,11 +32,11 @@ export class Header extends React.Component {
             <Link to="/">
               <li>home</li>
             </Link>
-            <Link to="about">
-              <li>j+t</li>
-            </Link>
             <Link to="enneagram">
               <li>enneagram</li>
+            </Link>
+            <Link to="about">
+              <li>j+t</li>
             </Link>
             <Link to="contact">
               <li>contact</li>
